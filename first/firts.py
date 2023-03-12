@@ -68,15 +68,15 @@ def get_normalize_image(src, path_pos):
     image = image / 255
     
     
-    # Обработка входного изображения:
-    transform = torchvision.transforms.Compose([
-        torchvision.transforms.ToTensor(),
-        torchvision.transforms.Normalize(
-            mean=[0.5],
-            std=[0.5],
-        ),
-    ])
-    scripted_transforms = torch.jit.script(transforms)
+    # # Обработка входного изображения:
+    # transform = torchvision.transforms.Compose([
+    #     torchvision.transforms.ToTensor(),
+    #     torchvision.transforms.Normalize(
+    #         mean=[0.5],
+    #         std=[0.5],
+    #     ),
+    # ])
+    # scripted_transforms = torch.jit.script(transforms)
 
     return image
 
