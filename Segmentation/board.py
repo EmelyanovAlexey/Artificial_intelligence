@@ -24,5 +24,5 @@ def create_image_plot(row_len : int = None, **images):
     for idx, (name, image) in enumerate(images.items()):
         ax = fig.add_subplot(idx//row_len+1, n_images, idx+1)
         ax.set_title(name.title(), fontsize=16)
-        ax.imshow(image)
+        ax.imshow(image, vmin=0, vmax=1)
     return fig

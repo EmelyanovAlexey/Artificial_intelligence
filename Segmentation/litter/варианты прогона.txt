@@ -1,0 +1,223 @@
+        {
+            "model": "unet",
+            "encoder": "resnet50",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.000001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "resnet50",
+            "learning_rate": 0.001,
+            "weight_decay": 0.0001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 3,
+                "threshold": 1e-2,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "resnet50",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.000001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "LovaszLoss"
+        },
+ {
+            "model": "unet",
+            "encoder": "mobilenet_v2",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "iou",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "LovaszLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "mobilenet_v2",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "iou",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "mobilenet_v2",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "LovaszLoss"
+        },
+
+        {
+            "model": "unet",
+            "encoder": "mobilenet_v2",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "mobilenet_v2",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "acc",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "LovaszLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "mobilenet_v2",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+
+        {
+            "model": "unet",
+            "encoder": "timm-mobilenetv3_large_100",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+ {
+            "model": "unet",
+            "encoder": "timm-mobilenetv3_large_100",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "iou",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "timm-mobilenetv3_large_100",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.00001,
+            "metric": "acc",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "ReduceLROnPlateau",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "DiceLoss"
+        },
+        {
+            "model": "unet",
+            "encoder": "resnet50",
+            "learning_rate": 0.0001,
+            "weight_decay": 0.000001,
+            "metric": "dice",
+            "activation": "nn.ReLU",
+            "optimizer": "Adam",
+            "scheduler": {
+                "name": "CosineAnnealingWarmRestarts",
+                "patience": 2,
+                "threshold": 1e-3,
+                "cooldown": 1,
+                "factor": 0.1
+            },
+            "loss": "LovaszLoss"
+        }
