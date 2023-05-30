@@ -1,0 +1,13 @@
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
+
+nc: 21
+names: ['Agaricus bisporus', 'Agaricus blazei Murill', 'Agrocybe aegerita', 'Armillaria mellea', 'Auricularia auricula', 'Boletus', 'Cantharellus cibarius', 'Clitocybe maxima', 'Collybia albuminosa', 'Coprinus comatus', 'Cordyceps militaris', 'Dictyophora indusiate', 'Flammulina velutiper', 'Hericium erinaceus', 'Hypsizygus marmoreus', 'Lentinus edodes', 'Morchella esculenta', 'Pleurotus citrinopileatus', 'Pleurotus cystidiosus', 'Pleurotus eryngii', 'Pleurotus ostreatus']
+
+roboflow:
+  workspace: project
+  project: codev
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/codev/dataset/3
