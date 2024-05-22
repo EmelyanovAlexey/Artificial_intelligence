@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T04:26:32.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_s4cc_JlAQGGEhg3U-Ht" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T02:45:28.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lyaMNCHUUX3E-BRkHKiw" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="Z9grpINIS1WZcXDOlc7x">
-    <mxGraphModel dx="687" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="1">
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,7 +169,7 @@
         <mxCell id="QrrXIzRSube-693lMT5V-20" value="Сhecking the availability of loans" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m0QfSSvUoe89K8AQS2io-46" vertex="1">
           <mxGeometry y="140" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PXOoAxPkVuRBygn9UNAT-1" value="Сhecking of 1 from 5 en&lt;span style=&quot;background-color: initial;&quot;&gt;gines&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="m0QfSSvUoe89K8AQS2io-46">
+        <mxCell id="PXOoAxPkVuRBygn9UNAT-1" value="Сhecking of 1 from 5 en&lt;span style=&quot;background-color: initial;&quot;&gt;gines&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m0QfSSvUoe89K8AQS2io-46" vertex="1">
           <mxGeometry y="170" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xOqrMLGwbStXNlK3d1FK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="m0QfSSvUoe89K8AQS2io-50" target="m0QfSSvUoe89K8AQS2io-55" edge="1">
@@ -264,6 +264,9 @@
             <mxPoint x="590" y="640" as="sourcePoint" />
             <mxPoint x="640" y="590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EhPMa-ueGy9qX2_TaDVz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m0QfSSvUoe89K8AQS2io-14" target="m0QfSSvUoe89K8AQS2io-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
